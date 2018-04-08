@@ -1,8 +1,8 @@
 Package.describe({
-  name: 'ccorcos:subs-cache',
-  summary: 'A package for caching Meteor subscriptions.',
-  version: '0.9.5',
-  git: 'https://github.com/ccorcos/meteor-subs-cache'
+  name: 'blockrazor:subscache-c4',
+  summary: 'Most useful subscription caching, ever.',
+  version: '0.1.0',
+  git: 'https://github.com/blockrazor/subscache-C4'
 });
 
 Package.onUse(function(api) {
