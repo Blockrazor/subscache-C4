@@ -1,7 +1,7 @@
 Package.describe({
   name: 'blockrazor:subscache-c4',
   summary: 'Most useful subscription caching, ever.',
-  version: '0.1.0',
+  version: '2.0.1',
   git: 'https://github.com/blockrazor/subscache-C4'
 });
 
@@ -30,10 +30,10 @@ Package.onTest(function(api) {
     'ejson',
     'tracker',
     'reactive-var',
-    'ccorcos:subs-cache',
+    'blockrazor:subscache-c4',
     'practicalmeteor:chai',
-    'coffeescript@1.12.7_3',
-    'practicalmeteor:mocha@2.4.5_6'
+    'coffeescript',
+    'practicalmeteor:mocha'
 	], ['client', 'server']);
   api.mainModule('src/SubsCache.tests.js');
 });
