@@ -3,6 +3,9 @@ _Most useful subscription caching, ever_
 
 This project was forked from https://github.com/ccorcos/meteor-subs-cache because we were not happy with the rate at which pull requests were being merged.
 
+### A note about version numbers
+Under the C4 protocol, version numbers don't really mean anything and semantic versioning *really* doesn't mean anything. Pull requests are merged directly to Master, and master *should* be pushed to Atmosphere with each merge. Sounds scary, but a decade of battle testing at ZeroMQ demonstrates the validity of this approach.  
+
 ## The problem
 
 Suppose you are subscribing to a post:
