@@ -67,6 +67,12 @@ You can run the mocha-based tests in watch mode via:
 
 `meteor test-packages ./ --driver-package practicalmeteor:mocha`
 
+## Known issues
+
+### No data is injected when using with Fast Render
+
+When using the Fast Render package the parameters passed to the subscription must the identical on both Fast Render and Subscache or no data will be injected.
+
 ## Contributing
 
 A cardinal sin that many open source developers make is to place themselves above others. "_I founded this project thus my intellect is superior to that of others_". It's immodest and rude, and usually inaccurate. The contribution policy we use applies equally to everyone, without distinction.    
